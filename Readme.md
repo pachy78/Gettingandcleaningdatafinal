@@ -50,7 +50,7 @@ and/or you can download the [data](https://d396qusza40orc.cloudfront.net/getdata
 6. Uses descriptive names for the activities in the Mean_Std data set.
 7. Labels the Mean_Std data set with descriptive variable names.
 8. From Mean_Std, it creates a second data set called **AverageData** with the average of each variable for each activity and each subject.
-9. Saves Mean_Std and AverageData into a new folder called "[results](https://github.com/pachy78/Gettingandcleaningdatafinal/tree/master/results)" as two different CSV and TXT files. I initially wanted CSV files, because I find then more easy to handle. But, then I found out that a TXT was required for the AverageData data set. So I decided to keep formats for both data sets.
+9. Saves Mean_Std and AverageData into a new folder called "[results](https://github.com/pachy78/Gettingandcleaningdatafinal/tree/master/results)" as two different CSV and TXT files. I initially wanted CSV files, because I find then more easy to handle. But, then I found out that a TXT was required for the AverageData data set. So I decided to keep both formats for both data sets.
 10. Removes any unnecessary variable or data set from memory leaving the FullData, Mean_Std and AverageData data sets.
 
 
