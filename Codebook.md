@@ -95,7 +95,7 @@ This data set only includes the mean value (mean()) and standard deviation (std(
 [67] "FrequencyBodyBodyGyroscopeMag_StadDev"        
 [68] "FrequencyBodyBodyGyroscopeJerkMag_StadDev"    
 
-
+##AverageData
 This data set is created from Mean_Std and it stores the average of each variable for each activity and each subject. 
 The descriptions for each variable are the same as the Mean_Std data set (previously explained above), but the mean() function was applied to each variable grouping by activity and subject.
 
