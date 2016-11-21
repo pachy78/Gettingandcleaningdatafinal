@@ -110,13 +110,22 @@
         summarise_all(mean)    
                                         
 
-#Saving the Mean_Std and AverageData to txt files, stored if ./data/results
+#Saving the Mean_Std and AverageData to csv and txt files, stored in ./data/results
     if(!file.exists("./data/results")) { dir.create("./data/results")}
     Path <- "./data/results"
     
+    #With headers and as CSV files
     write.csv(x = Mean_Std, file.path(Path,"Mean_Std.csv"), row.names = FALSE)
     write.csv(x = AverageData, file.path(Path,"AverageData.csv"), row.names = FALSE)            
 
+    #As txt files since it was requested in the "my submision page".
+    #My initail idea was to just to create CSV files since I find them more easy 
+    #to manage. I am adding this after realizing txt was requiered. I am leaving 
+    #the CSV files anyways.
+    
+    write.csv(x = Mean_Std, file.path(Path,"Mean_Std.txt"), row.names = FALSE)
+    write.csv(x = AverageData, file.path(Path,"AverageData.txt"), row.names = FALSE)   
+    
 ##Removing not necessary data sets and variables
     rm(list=c("Activity_Lab","Attributes_Nam","Test","Test_Lab","Test_Sub",
               "Training", "Training_Lab","Training_Sub","Path","fileUrl"))
