@@ -24,7 +24,7 @@ Here are the data for the project:
 ## Deliverables: 
 
 ### 1. A tidy data set.
-Actually, two data sets are being delivered for this project (they can be found in the results folder):
+Actually, two data sets are being delivered for this project (they can be found in the [results](https://github.com/pachy78/Gettingandcleaningdatafinal/blob/master/Readme.md) folder):
 
 1. **Mean_Std:** Contains the measurements on the mean and standard deviation for each measurement taken in the originals data sets.
 
@@ -32,8 +32,8 @@ Actually, two data sets are being delivered for this project (they can be found 
 
 ### 2. A link to a Github repository with the script for performing the analysis: 
 [Git Hub Link](https://github.com/pachy78/Gettingandcleaningdatafinal)
-### 3. A code book that describes the variables, the data, and any transformations or work that was performed to clean up the data called CodeBook.md (https://github.com/pachy78/Gettingandcleaningdatafinal/blob/master/Codebook.md) 
-### 4. A README.md(https://github.com/pachy78/Gettingandcleaningdatafinal/blob/master/Readme.md) explaining how the script work.
+### 3. A code book that describes the variables, the data, and any transformations or work that was performed to clean up the data called CodeBook.md. 
+### 4. A README.md explaining how the script work.
 This file. Keep reading below to see how the script works.
 
 ## How the script works.
